@@ -65,11 +65,11 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 text-gray-900 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-r from-blue-600 to-blue-400 py-16 mb-10 flex flex-col items-center shadow-lg">
-        <h1 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">About Us</h1>
-        <h2 className="text-2xl font-semibold text-blue-100 mb-4">Social Alliance for Change & Harmony</h2>
-        <p className="max-w-2xl text-lg text-blue-50 text-center mb-6">
-          <span className="font-bold">sach</span> is a non-political, non-profit organization dedicated to justice, support, and empowerment for a better society.
+      <section className="w-full bg-gradient-to-r from-blue-600 to-blue-400 py-16 mb-10 flex flex-col items-center shadow-lg px-2 sm:px-0">
+        <h1 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg text-center">About Us</h1>
+        <h2 className="text-2xl font-semibold text-blue-100 mb-4 text-center w-full">Social Alliance for Change & Harmony</h2>
+        <p className="max-w-2xl text-lg text-blue-50 text-center mb-6 w-full">
+          <span className="font-bold">S.A.C.H</span> is a non-political, non-religious, non-profit organization dedicated to justice, support, and empowerment for a better society.
         </p>
       </section>
       <main className="w-full max-w-5xl flex-1 space-y-12 px-2 sm:px-0">
@@ -78,7 +78,7 @@ export default function AboutPage() {
           <section className="bg-white rounded-xl shadow p-8 flex flex-col justify-center">
             <h3 className="text-2xl font-semibold mb-4 text-blue-800">Who We Are</h3>
             <p className="text-gray-700 mb-2">
-              <span className="font-bold">sach</span> (Social Alliance for Change & Harmony) is a non-political, non-profit organization dedicated to the betterment of society through justice, support, and empowerment.
+              <span className="font-bold">S.A.C.H</span> (Social Alliance for Change & Harmony) is a non-political, non-religious, non-profit organization dedicated to the betterment of society through justice, support, and empowerment.
             </p>
             <ul className="list-disc pl-6 text-gray-700 mb-2">
               <li>Founded to address social injustices and empower communities at the grassroots level.</li>
