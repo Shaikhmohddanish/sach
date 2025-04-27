@@ -28,6 +28,7 @@ function Header() {
           <Link href="#ideology" className="hover:text-blue-600" scroll={true}>Ideology</Link>
           <Link href="#principles" className="hover:text-blue-600" scroll={true}>Principles</Link>
           <Link href="/about" className="hover:text-blue-600">About Us</Link>
+          <Link href="/contact" className="hover:text-blue-600">Join Us</Link>
         </div>
         <button
           className="md:hidden flex flex-col gap-1.5"
@@ -47,6 +48,7 @@ function Header() {
             <Link href="#ideology" className="hover:text-blue-600" onClick={() => setMenuOpen(false)} scroll={true}>Ideology</Link>
             <Link href="#principles" className="hover:text-blue-600" onClick={() => setMenuOpen(false)} scroll={true}>Principles</Link>
             <Link href="/about" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>About Us</Link>
+            <Link href="/contact" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Join Us</Link>
           </nav>
         </div>
       )}
