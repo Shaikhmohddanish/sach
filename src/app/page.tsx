@@ -105,10 +105,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 text-gray-900 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-r from-blue-600 to-blue-400 py-16 mb-10 flex flex-col items-center shadow-lg">
-        <h1 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">S.A.C.H</h1>
-        <h2 className="text-2xl font-semibold text-blue-100 mb-4">Social Alliance for Change & Harmony</h2>
-        <p className="max-w-2xl text-lg text-blue-50 text-center mb-6">
+      <section className="w-full bg-gradient-to-r from-blue-600 to-blue-400 py-16 mb-10 flex flex-col items-center shadow-lg px-2 sm:px-0">
+        <h1 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg text-center">S.A.C.H</h1>
+        <h2 className="text-2xl font-semibold text-blue-100 mb-4 text-center w-full">Social Alliance for Change & Harmony</h2>
+        <p className="max-w-2xl text-lg text-blue-50 text-center mb-6 w-full">
           A non-political, non-religious, non-profit organization dedicated to justice, support, and empowerment for a better society.
         </p>
       </section>
